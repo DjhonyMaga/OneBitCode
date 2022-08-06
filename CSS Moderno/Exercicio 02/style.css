@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    margin: 0px;
+    background-color: white;
+}
+
+.logo-google{
+    margin: 10px auto 10px auto ;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.footer{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+.youtube{
+    margin: 10px auto 10px auto;
+    width: 200px;
+    height: 200%;
+    display: flex;
+    background-color: white;
+}
+
+.container{
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+}
+
+.item{
+    background-color: white;
+    border: 2px solid;
+    border-radius: 10%;
+    border-color: brown;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Cadastro da Liga dos Astronautas</h2>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="nome" placeholder="Digite seu Nome" required>
+        <br />
+        <br />
+        <label for="email">E-Mail:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu E-Mail" required>
+        <label for="senha">- Password:</label>
+        <input type="password" name="psw" id="senha" placeholder="Digite sua Senha" required>
+        <br />
+        <br />
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" id="nascimento" name="data" required>
+        <label for="imagem">- Foto:</label>
+        <input type="file" id="imagem" name="imagem" value="Escolher Arquivo" >
+        <br />
+        <br />
+        <label for="nacionalidade">Nacionalidade:</label>
+        <input list="paises" required>
+            <datalist id="paises">
+                <option value="Russia">
+                <option value="Brasil">
+                <option value="Argentina">
+                <option value="Uruguai">
+            </datalist>
+        <label >- Genero:</label>
+        <label for="feminio">Feminino</label>
+        <input type="radio" id="feminio" name="gender" required>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="gender" required>
+        <br />
+        <br />
+        <h4>Suas Principai Qualidades:</h4>
+        <label for="int">Inteligência</label>
+        <input type="checkbox" name="inte" id="int">
+        <label for="res">| Resiliência</label>
+        <input type="checkbox" name="resi" id="res">
+        <label for="fis">| Preparo Físico</label>
+        <input type="checkbox" name="fisi" id="fis">
+        <label for="edu">| Educação</label>
+        <input type="checkbox" name="educ" id="edu">
+        <br />
+        <br />
+        <label for="desc"></label>
+        <textarea  id="desc" name="descricao" rows="10" cols="30" placeholder="Porque você deseja ser astronauta?"></textarea>
+        <br />
+        <br />
+        <input type="submit" name="criar" value="Concluir Formulário">
+    </form> 
+
+    <video width="320" height="240" autoplay muted>
+        <source src="https://www.youtube.com/watch?v=UEloYR7DbFU" type="video/mp4">
+    </video>
+</body>
+</html>

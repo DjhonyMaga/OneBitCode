@@ -1,0 +1,30 @@
+.post-container{
+    margin: 0px auto 15px auto;
+    padding-top: 5px;
+    width: 77%;
+    background-color: #fdf3f3;
+}
+
+.date{
+    height: 10px;
+    color: #008080;
+    margin: 27px auto 0px auto;
+    font-family: Roboto;
+}
+
+.post{
+    margin: 10px auto 30px auto;
+    width: 85%;
+}
+
+.post-content{
+    font-family: Open Sans;
+}
+
+hr{
+    width: 87%;
+}
+
+h1{
+    font-family: Montserrat;
+}

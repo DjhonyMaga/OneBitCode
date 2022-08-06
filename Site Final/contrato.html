@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrato</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"> <img src="logo.png" class="media-object img-responsive img-thumnail"></a>
+            <a href="naves.html">| Nossas naves</a>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <div>
+            <form action="">
+                <h3>Contrate-nos:</h3>
+                <p>Preencha nos campos a baixo suas informações para cadastro!</p>
+                <br>
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Seu Nome" required>
+                    <label for="email">| E-Mail</label>
+                    <input type="email" name="email" id="email" placeholder="Seu E-EMail" required>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="naves">Naves:</label>
+                    <select name="naves" id="naves">
+                        <option value="Falcon 9">Falcon 9</option>
+                        <option value="Falcon Heavy">Falcon Heavy</option>
+                    </select>
+                    <label for="servico">| Tipo do Serviço</label>
+                    <input list="servico" for="servico" placeholder="Escolha um serviço" required>
+                    <datalist id="servico">
+                        <option value="Sobrevoar o Espaço">
+                        <option value="Barulho para os Vizinhos">
+                        <option value="Queima Lixo"></option>
+                    </datalist>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" name="Cadastrar" value="Cadastro">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
