@@ -1,0 +1,11 @@
+.quadrado{
+    background-color: $cor-primaria;
+    width: 200px;
+    height: 200px;
+    border: 2px solid transparent;
+}
+
+.quadrado:hover{
+    border-color: $cor-secundaria;
+    transition: 0.4s;
+}

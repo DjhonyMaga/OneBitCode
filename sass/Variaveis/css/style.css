@@ -1,0 +1,12 @@
+.quadrado {
+  background-color: red;
+  border: 2px solid transparent;
+  width: 200px;
+  height: 200px;
+}
+
+.quadrado:hover {
+  border-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

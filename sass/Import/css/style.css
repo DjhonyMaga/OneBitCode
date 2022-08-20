@@ -1,0 +1,13 @@
+.quadrado {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 2px solid transparent;
+}
+
+.quadrado:hover {
+  border-color: black;
+  transition: 0.4s;
+}
+
+/*# sourceMappingURL=style.css.map */
