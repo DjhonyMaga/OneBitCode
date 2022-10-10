@@ -1,0 +1,12 @@
+.container h1 {
+  color: red;
+  font-size: 34px;
+  font-family: sans-serif;
+}
+.container p {
+  color: blue;
+  font-size: 22px;
+  font-family: arial;
+}
+
+/*# sourceMappingURL=style.css.map */

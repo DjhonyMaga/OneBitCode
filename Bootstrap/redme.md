@@ -2,6 +2,8 @@ Documentação OneBitCode: https://bootstrapdoconebitcode.netlify.app/index.html
 
 Documentação oficial Bootstrap: https://getbootstrap.com/docs/5.1/getting-started/introduction/
 
+instalação bootstrap com npm (NodeJS) : npm install bootstrap
+
 Bootstrap é um framework css, sua formatação é aplicada toda com base nas clases usadas no html
 
 Classes com formatação de css:
